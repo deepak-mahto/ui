@@ -6,7 +6,6 @@ Welcome to BiteBliss, your go-to restaurant app for exploring delightful culinar
 
 - [About](#about)
 - [Features](#features)
-- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -20,14 +19,6 @@ BiteBliss is a static website project showcasing a hypothetical restaurant app. 
 - Dynamic year update in the footer using JavaScript.
 - Eye-catching and user-friendly interface with CSS styling.
 
-## Getting Started
-
-To get a copy of this project on your local machine, simply clone the repository:
-
-```bash
-git clone https://github.com/deepak-mahto/BiteBlissRestaurantApp.git
-
-```
 ## Usage
 
 Open the `index.html` file in your preferred web browser to explore the BiteBliss restaurant app. Navigate through the menu, enjoy the design, and experience the dynamic year update in the footer.
