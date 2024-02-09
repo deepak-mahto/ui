@@ -8,17 +8,6 @@ Welcome to the AdidasCart project! This simple web application allows users to e
 - **Shopping Cart Functionality:** Add products to your cart for easy management and checkout.
 - **Responsive Design:** Enjoy a seamless experience on various devices.
 
-## Getting Started
-
-1. Clone the Repository:
-
-```bash
-https://github.com/deepak-mahto/AdidasCart.git
-
-```
-2. Open the project in your preferred web browser.
-3. Explore the Adidas product showcase and utilize the shopping cart functionality.
-
 ## Usage
 
 - Navigate to the product page to explore Adidas products.
