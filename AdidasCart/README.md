@@ -13,6 +13,6 @@ Welcome to the AdidasCart project! This simple web application allows users to e
 - Navigate to the product page to explore Adidas products.
 - Use the cart page to add products and manage your selections.
 
-# Contributing 
+# Contributing
 
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Your contributions are welcome!
