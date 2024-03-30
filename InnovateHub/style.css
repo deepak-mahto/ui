@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  overflow-y: auto;
+  height: calc(100vh - 20px);
+}
+
+/* Company logo and User Profile */
+.logo-profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.logo-profile > .company-logo {
+  border-radius: 10px;
+}
+
+.logo-profile > .company-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.logo-profile > .profile-image {
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+/* Team container */
+.team-container {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.team-container > ul {
+  margin-bottom: 40px;
+}
+
+.team-container > .create-team {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.team-container > .create-team > span {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.team-list {
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.team-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.team-container > .team-list > .team-item > span {
+  font-size: 1.2rem;
+}
+
+.team-container > .team-list > .team-item > .shortcut-key {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 2.5px 5px 2.5px 5px;
+}
+
+.team-container > .team-list > .team-item > .shortcut-key > span {
+  font-size: small;
+}
+
+.team-container > .create-team > span > .material-symbols-outlined {
+  font-size: 1.2rem;
+}
+
+/* Folders */
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.folder {
+  margin-bottom: 20px;
+}
+
+.folder-title {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.folder > .folder-title > .material-symbols-outlined {
+  font-size: 1.2rem;
+}
+
+.folder > .sub-folder {
+  list-style-type: none;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 20px;
+  align-items: flex-start;
+}
+
+/* Bottom Links */
+.bottom-links {
+  margin-top: auto;
+}
+
+.bottom-links > .bottom-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.bottom-links > .bottom-info > button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 2.5px;
+}
+
+.bottom-links > .border {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Main section */
+.main-section {
+  margin: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: calc(100% - 280px);
+  float: right;
+}
+
+.section-container {
+  border: 1px solid #ddd;
+  margin-bottom: 0;
+}
+
+.section-container:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.section-container:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.section {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section:nth-child(2) .section-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* First Section Content */
+.first-section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.first-section-content > .search-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.products {
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-bar input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-bar .search-bar-icon {
+  position: absolute;
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.search-bar input[type="text"] {
+  padding-left: 30px;
+}
+
+.border {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.padding-size {
+  padding: 4px;
+  font-size: 1.2rem;
+}
+
+/* Second Section Content */
+.second-section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-section-content .second-section-content-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.display-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Third Section Content */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.display-flex-last {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th:last-child,
+.table td:last-child {
+  text-align: center;
+}
+
+.table tr:hover {
+  background-color: #ccc;
+}
+
+.hashtag {
+  background-color: #ddd;
+}
+
+.members {
+  --member-size: 30px;
+  --column-size: calc(var(--member-size) / 2);
+  display: grid;
+  grid-template-columns: repeat(10, var(--column-size));
+}
+
+.member {
+  width: var(--member-size);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 100vw;
+  border: 1px solid white;
+}
+
+/* Last Section Content */
+
+.selected-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: calc(100vh - 89.9vh);
+}
+
+.bottom-center {
+  margin-top: auto;
+  align-self: center;
+}

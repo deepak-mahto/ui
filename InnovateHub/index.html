@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>InnovateHub</title>
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Company logo and User profile -->
+      <section>
+        <div class="logo-profile">
+          <img
+            class="company-logo"
+            src="./assets/innovatehub.png"
+            alt="Company Logo"
+            width="50"
+          />
+          <div class="company-name">
+            <span>INC</span>
+            <span style="font-weight: bold">InnovateHub</span>
+          </div>
+          <img
+            class="profile-image"
+            src="./assets/d.jpg"
+            alt="user_profile"
+            width="30"
+          />
+        </div>
+      </section>
+      <!-- Team Container -->
+      <section>
+        <div class="team-container">
+          <ul class="team-list">
+            <li class="team-item">
+              <span class="material-symbols-outlined"> draw </span>
+              Design Team
+              <div class="shortcut-key">
+                <span class="material-symbols-outlined">
+                  keyboard_command_key
+                </span>
+                + 1
+              </div>
+            </li>
+            <li class="team-item">
+              <span class="material-symbols-outlined"> campaign </span>
+              Marketing Team
+              <div class="shortcut-key">
+                <span class="material-symbols-outlined">
+                  keyboard_command_key
+                </span>
+                + 2
+              </div>
+            </li>
+            <li class="team-item">
+              <span class="material-symbols-outlined"> code </span> Development
+              Team
+              <div class="shortcut-key">
+                <span class="material-symbols-outlined">
+                  keyboard_command_key
+                </span>
+                + 3
+              </div>
+            </li>
+          </ul>
+          <div class="create-team">
+            <span
+              style="
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 10px;
+              "
+              ><span class="material-symbols-outlined"> add_box </span> Create a
+              Team</span
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Folder -->
+      <section>
+        <div class="folder">
+          <div class="title">
+            <p>FOLDERS</p>
+            <p style="margin-right: 10px">+</p>
+          </div>
+          <div class="folder-title">
+            <span class="material-symbols-outlined"> folder </span>
+            Products
+            <span class="material-symbols-outlined" style="margin-left: 6rem">
+              arrow_drop_up
+            </span>
+          </div>
+          <ul class="sub-folder">
+            <li class="sub-folder-item">Roadmap</li>
+            <li class="sub-folder-item">Feedback</li>
+            <li class="sub-folder-item">Performance</li>
+            <li class="sub-folder-item">Team</li>
+            <li class="sub-folder-item">Analytics</li>
+          </ul>
+          <div style="font-size: small; margin: 10px">+ Add New Sub</div>
+        </div>
+        <div class="folder">
+          <div class="folder-title">
+            <span class="material-symbols-outlined"> folder </span>
+            Sales
+            <span class="material-symbols-outlined" style="margin-left: 7.7rem">
+              arrow_drop_down
+            </span>
+          </div>
+        </div>
+        <div class="folder">
+          <div class="folder-title">
+            <span class="material-symbols-outlined"> folder </span>
+            Design
+            <span class="material-symbols-outlined" style="margin-left: 7rem">
+              arrow_drop_down
+            </span>
+          </div>
+        </div>
+        <div class="folder">
+          <div class="folder-title">
+            <span class="material-symbols-outlined"> folder </span>
+            Office
+          </div>
+        </div>
+        <div class="folder">
+          <div class="folder-title">
+            <span class="material-symbols-outlined"> folder </span>
+            Legal
+          </div>
+        </div>
+      </section>
+      <!-- Bottom Links -->
+      <div class="bottom-links">
+        <div class="bottom-info">
+          <span class="material-symbols-outlined" style="font-size: 1.2rem">
+            person_add
+          </span>
+          <span>Invite Teammates</span>
+        </div>
+        <div class="bottom-info">
+          <span class="material-symbols-outlined" style="font-size: 1.2rem">
+            help
+          </span>
+          <span>Help and first steps</span>
+          <span
+            style="border: 1px solid #ccc; padding: 2.5px; border-radius: 5px"
+            >0/6</span
+          >
+        </div>
+        <div class="bottom-info">
+          <p>7 days left on trial</p>
+          <button>Add Billing</button>
+        </div>
+      </div>
+    </div>
+    <!-- Main section -->
+    <div class="main-section">
+      <div class="section-container">
+        <div class="section">
+          <!-- First Section Content -->
+          <div class="container first-section-content">
+            <div class="products">Products</div>
+            <div class="search-icons">
+              <div class="search-bar">
+                <span class="material-symbols-outlined search-bar-icon">
+                  search
+                </span>
+                <input
+                  type="text"
+                  id="searchInput"
+                  placeholder="Search for..."
+                />
+              </div>
+              <div class="border">
+                <span class="material-symbols-outlined padding-size">
+                  forum
+                </span>
+              </div>
+              <div class="border">
+                <span class="material-symbols-outlined padding-size">
+                  settings
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-container">
+        <div class="section">
+          <div class="section-content">
+            <!-- Second Section Content -->
+            <div class="second-section-content">
+              <div class="second-section-content-logo">
+                <div class="border padding-size display-flex">
+                  <span class="material-symbols-outlined">
+                    keyboard_command_key </span
+                  ><span>All brands</span>
+                  <span class="material-symbols-outlined">
+                    arrow_drop_down
+                  </span>
+                </div>
+                <div class="border padding-size display-flex">
+                  <span>Desk</span
+                  ><span class="material-symbols-outlined">
+                    arrow_drop_down
+                  </span>
+                </div>
+                <div class="border padding-size display-flex">
+                  <span>Tags</span
+                  ><span class="material-symbols-outlined">
+                    arrow_drop_down
+                  </span>
+                </div>
+                <button class="border padding-size display-flex">
+                  <span class="material-symbols-outlined"> sort </span
+                  ><span>Sort</span>
+                </button>
+                <button class="border padding-size display-flex">
+                  <span class="material-symbols-outlined"> tune </span
+                  ><span>Filter</span>
+                </button>
+              </div>
+              <div class="second-section-content-logo">
+                <button class="border padding-size display-flex">
+                  <span class="material-symbols-outlined"> add_box </span
+                  ><span>Meeting</span>
+                </button>
+                <button class="border padding-size display-flex">
+                  <span class="material-symbols-outlined"> download </span
+                  ><span>Import/Export</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-container">
+        <!-- Third Section Content -->
+        <table class="table section">
+          <thead>
+            <tr>
+              <th><input type="checkbox" id="selectAllBrands" /> Brand</th>
+              <th>Description</th>
+              <th>Members</th>
+              <th>Categories</th>
+              <th>Tags</th>
+              <th>Next Meeting</th>
+              <th>+</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox" /> Wix</td>
+              <td>Develop a personalized fit...</td>
+              <th class="members">
+                <img class="member" src="./assets/user1.jpeg" alt="" />
+                <img class="member" src="./assets/user2.jpeg" alt="" />
+                <img class="member" src="./assets/user3.jpeg" alt="" />
+                <img class="member" src="./assets/user4.jpeg" alt="" />
+                <img class="member" src="./assets/user8.jpeg" alt="" />
+                <img class="member" src="./assets/user9.jpeg" alt="" />
+                <img class="member" src="./assets/user10.jpeg" alt="" />
+                <img class="member" src="./assets/user7.jpeg" alt="" />
+              </th>
+              <td>
+                <span
+                  style="background-color: lightskyblue; color: blueviolet"
+                  class="border padding-size"
+                  >Automation</span
+                >
+              </td>
+              <td>
+                <span class="border padding-size hashtag"
+                  >#DigitalTransformation</span
+                >
+              </td>
+              <td>
+                <span
+                  style="background-color: lightgreen; color: green"
+                  class="border padding-size"
+                  >in 30 minutes</span
+                >
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /> Shopify</td>
+              <td>Introduce a cloud-based platform</td>
+              <th class="members">
+                <img class="member" src="./assets/user9.jpeg" alt="" />
+                <img class="member" src="./assets/user3.jpeg" alt="" />
+                <img class="member" src="./assets/user4.jpeg" alt="" />
+                <img class="member" src="./assets/user8.jpeg" alt="" />
+                <img class="member" src="./assets/user6.jpeg" alt="" />
+                <img class="member" src="./assets/user10.jpeg" alt="" />
+              </th>
+              <td>
+                <span
+                  style="background-color: lightsalmon; color: brown"
+                  class="border padding-size"
+                  >E-commerce</span
+                >
+                <span
+                  style="background-color: lightyellow; color: burlywood"
+                  class="border padding-size"
+                  >B2B</span
+                >
+              </td>
+              <td>
+                <span class="border padding-size hashtag">#OnlineShopping</span>
+                <span class="border padding-size hashtag">#Digital</span>
+              </td>
+              <td>
+                <span
+                  style="background-color: lightblue; color: blue"
+                  class="border padding-size"
+                  >Tomorrow</span
+                >
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /> MailChain</td>
+              <td>Develop a mobile app aim...</td>
+              <th class="members">
+                <img class="member" src="./assets/user7.jpeg" alt="" />
+                <img class="member" src="./assets/user2.jpeg" alt="" />
+                <img class="member" src="./assets/user9.jpeg" alt="" />
+                <img class="member" src="./assets/user5.jpeg" alt="" />
+                <img class="member" src="./assets/user8.jpeg" alt="" />
+                <img class="member" src="./assets/user8.jpeg" alt="" />
+              </th>
+              <td>
+                <span
+                  style="background-color: lightgreen; color: darkgreen"
+                  class="border padding-size"
+                  >SAAS</span
+                >
+                <span
+                  style="background-color: lightyellow; color: burlywood"
+                  class="border padding-size"
+                  >Mobile</span
+                >
+              </td>
+              <td>
+                <span class="border padding-size hashtag"
+                  >#TechInnovatioon</span
+                >
+                <span class="border padding-size hashtag">#Digital</span>
+              </td>
+              <td>
+                <span
+                  style="background-color: lightblue; color: blue"
+                  class="border padding-size"
+                  >Tomorrow</span
+                >
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /> PayPal</td>
+              <td>This Program could include</td>
+              <th class="members">
+                <img class="member" src="./assets/user1.jpeg" alt="" />
+                <img class="member" src="./assets/user2.jpeg" alt="" />
+                <img class="member" src="./assets/user3.jpeg" alt="" />
+                <img class="member" src="./assets/user4.jpeg" alt="" />
+                <img class="member" src="./assets/user8.jpeg" alt="" />
+                <img class="member" src="./assets/user9.jpeg" alt="" />
+                <img class="member" src="./assets/user10.jpeg" alt="" />
+              </th>
+              <td>
+                <span
+                  style="background-color: lightgreen; color: darkgreen"
+                  class="border padding-size"
+                  >Marketplace</span
+                >
+              </td>
+              <td>
+                <span class="border padding-size hashtag">#BuySellOnline</span>
+                <span class="border padding-size hashtag">#OnlineMarket</span>
+              </td>
+              <td>
+                <span
+                  style="background-color: lightgreen; color: green"
+                  class="border padding-size"
+                  >in 6 hours</span
+                >
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /> Disney</td>
+              <td>Introduce a B2B solution</td>
+              <th class="members">
+                <img class="member" src="./assets/user10.jpeg" alt="" />
+                <img class="member" src="./assets/user1.jpeg" alt="" />
+                <img class="member" src="./assets/user5.jpeg" alt="" />
+                <img class="member" src="./assets/user8.jpeg" alt="" />
+              </th>
+              <td>
+                <span
+                  style="background-color: lightyellow; color: burlywood"
+                  class="border padding-size"
+                  >B2B</span
+                >
+                <span
+                  style="background-color: lightyellow; color: burlywood"
+                  class="border padding-size"
+                  >B2C</span
+                >
+              </td>
+              <td>
+                <span class="border padding-size hashtag"
+                  >#BusinessPartnerships</span
+                >
+              </td>
+              <td>
+                <span
+                  style="background-color: lightcoral; color: red"
+                  class="border padding-size"
+                  >No contact</span
+                >
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /> Intercom</td>
+              <td>Implement an AI driven</td>
+              <th class="members">
+                <img class="member" src="./assets/user9.jpeg" alt="" />
+                <img class="member" src="./assets/user2.jpeg" alt="" />
+                <img class="member" src="./assets/user4.jpeg" alt="" />
+                <img class="member" src="./assets/user6.jpeg" alt="" />
+                <img class="member" src="./assets/user8.jpeg" alt="" />
+                <img class="member" src="./assets/user3.jpeg" alt="" />
+                <img class="member" src="./assets/user10.jpeg" alt="" />
+                <img class="member" src="./assets/user5.jpeg" alt="" />
+                <img class="member" src="./assets/user7.jpeg" alt="" />
+                <img class="member" src="./assets/user1.jpeg" alt="" />
+              </th>
+              <td>
+                <span
+                  style="background-color: lightskyblue; color: blueviolet"
+                  class="border padding-size"
+                  >Technology</span
+                >
+                <span
+                  style="background-color: lightgreen; color: darkgreen"
+                  class="border padding-size"
+                  >SAAS</span
+                >
+              </td>
+              <td>
+                <span class="border padding-size hashtag">#SmartFinance</span>
+              </td>
+              <td>
+                <span
+                  style="background-color: lightgreen; color: green"
+                  class="border padding-size"
+                  >in 1 hours</span
+                >
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /> Google</td>
+              <td>Offer a comprehensive cy...</td>
+              <th class="members">
+                <img class="member" src="./assets/user9.jpeg" alt="" />
+                <img class="member" src="./assets/user2.jpeg" alt="" />
+                <img class="member" src="./assets/user4.jpeg" alt="" />
+                <img class="member" src="./assets/user5.jpeg" alt="" />
+                <img class="member" src="./assets/user8.jpeg" alt="" />
+                <img class="member" src="./assets/user10.jpeg" alt="" />
+              </th>
+              <td>
+                <span
+                  style="background-color: lightyellow; color: burlywood"
+                  class="border padding-size"
+                  >Finance</span
+                >
+                <span
+                  style="background-color: lightskyblue; color: blueviolet"
+                  class="border padding-size"
+                  >Automation</span
+                >
+              </td>
+              <td>
+                <span class="border padding-size hashtag">#SmartFinance</span>
+                <span class="border padding-size hashtag">#Workflow</span>
+              </td>
+              <td>
+                <span
+                  style="background-color: lightgreen; color: green"
+                  class="border padding-size"
+                  >in 30 minutes</span
+                >
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /> Evernote</td>
+              <td>This could include smart l...</td>
+              <th class="members">
+                <img class="member" src="./assets/user10.jpeg" alt="" />
+                <img class="member" src="./assets/user2.jpeg" alt="" />
+                <img class="member" src="./assets/user9.jpeg" alt="" />
+                <img class="member" src="./assets/user4.jpeg" alt="" />
+                <img class="member" src="./assets/user8.jpeg" alt="" />
+              </th>
+              <td>
+                <span
+                  style="background-color: lightyellow; color: burlywood"
+                  class="border padding-size"
+                  >Transportation</span
+                >
+              </td>
+              <td>
+                <span class="border padding-size hashtag">#LogisticsTech</span>
+                <span class="border padding-size hashtag">#UX</span>
+              </td>
+              <td>
+                <span style="background-color: #ccc" class="border padding-size"
+                  >Next month</span
+                >
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /> Microsoft</td>
+              <td>Launch and advisory service</td>
+              <th class="members">
+                <img class="member" src="./assets/user1.jpeg" alt="" />
+                <img class="member" src="./assets/user2.jpeg" alt="" />
+                <img class="member" src="./assets/user7.jpeg" alt="" />
+                <img class="member" src="./assets/user4.jpeg" alt="" />
+                <img class="member" src="./assets/user8.jpeg" alt="" />
+                <img class="member" src="./assets/user6.jpeg" alt="" />
+              </th>
+              <td>
+                <span
+                  style="background-color: lightsalmon; color: brown"
+                  class="border padding-size"
+                  >Publicing</span
+                >
+                <span
+                  style="background-color: lightyellow; color: burlywood"
+                  class="border padding-size"
+                  >B2C</span
+                >
+              </td>
+              <td>
+                <span class="border padding-size hashtag">#B2CMarketing</span>
+                <span class="border padding-size hashtag">#Retail</span>
+              </td>
+              <td>
+                <span
+                  style="background-color: lightcoral; color: red"
+                  class="border padding-size"
+                  >No contact</span
+                >
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /> Invision</td>
+              <td>The tool would analize tre...</td>
+              <th class="members">
+                <img class="member" src="./assets/user1.jpeg" alt="" />
+                <img class="member" src="./assets/user6.jpeg" alt="" />
+                <img class="member" src="./assets/user3.jpeg" alt="" />
+                <img class="member" src="./assets/user8.jpeg" alt="" />
+                <img class="member" src="./assets/user4.jpeg" alt="" />
+                <img class="member" src="./assets/user10.jpeg" alt="" />
+              </th>
+              <td>
+                <span
+                  style="background-color: lightskyblue; color: blueviolet"
+                  class="border padding-size"
+                  >Web Services</span
+                >
+              </td>
+              <td>
+                <span class="border padding-size hashtag">#APIIntegration</span>
+              </td>
+              <td>
+                <span style="background-color: #ccc" class="border padding-size"
+                  >Next month</span
+                >
+              </td>
+              <td></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td><span>10</span> counts</td>
+              <td>+ Add calculation</td>
+              <td>+ Add calculation</td>
+              <td>+ Add calculation</td>
+              <td>+ Add calculation</td>
+              <td></td>
+              <dt></dt>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div class="section-container">
+        <div class="section">
+          <!-- Last Section Content -->
+          <div class="selected-container">
+            <div class="buttons border padding-size bottom-center">
+              <div><span id="brandCount">0</span> selected</div>
+              <button class="border padding-size display-flex-last">
+                <span class="material-symbols-outlined"> archive </span>
+                <span>Archive</span>
+              </button>
+              <button class="border padding-size display-flex-last">
+                <span class="material-symbols-outlined"> delete </span>
+                <span>Delete</span>
+              </button>
+              <button class="border padding-size display-flex-last">
+                <span>More</span>
+                <span class="material-symbols-outlined"> arrow_drop_down </span>
+              </button>
+              <div>X</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
