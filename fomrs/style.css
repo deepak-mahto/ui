@@ -1,0 +1,89 @@
+:root {
+  --clr-success: hsl(143, 100%, 26%);
+  --clr-warning: hsl(43, 100%, 66%);
+  --clr-error: hsl(348, 55%, 49%);
+  --clr-primary: hsl(210, 36%, 96%);
+  --clr-bg-dark: hsl(0, 0%, 0%);
+  --clr-bg-light: hsl(0, 0%, 49%);
+  --clr-btn: hsl(203, 80%, 40%);
+}
+
+body {
+  background-color: grey;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: var(--clr-primary);
+}
+
+.container {
+  padding: 2rem;
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-group {
+  display: grid;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+input {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: 2px solid hsl(203, 30%, 26%);
+  background-color: hsl(210, 30%, 15%);
+  color: var(--clr-primary);
+  transition: outline-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  outline-color: var(--clr-btn);
+  box-shadow: 0 0 8px var(--clr-btn);
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--clr-btn);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: hsl(203, 90%, 50%);
+  transform: scale(1.05);
+}
+
+input:not(:placeholder-shown):valid {
+  outline-color: var(--clr-success);
+}
+
+input:not(:placeholder-shown):invalid {
+  outline-color: var(--clr-error);
+}
+
+input:focus:invalid {
+  outline-color: var(--clr-warning);
+}
